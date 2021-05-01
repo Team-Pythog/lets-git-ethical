@@ -1,33 +1,146 @@
+# Lets Git Ethical README
+
+## Project Lets Git Ethical 
+---
+<!-- ### We are deployed on REACT!
+
+[project url here] -->
+
+
+## **Let’s Git Ethical**
+
+**Summary:** An application that allows you to go through various moral dilemmas. When going through moral dilemmas, you can see how your answers compare with other users. In addition, customize your own profile, and connect with users that have similar ethical standards OR not. Maybe you want a challenge on the date and to discuss your vastly different perspectives.
+Pain Point: Have you ever wondered how you might respond in various moral dilemmas? Well now you can go through a set of moral dilemmas and find out what kind of person you really are. You can also see how your ethical standards align with other users, and even include your own dilemmas. If accepted, your unique dilemma can be added to the API! 
+
+**MVP:**
+Each moral dilemma will have a corresponding visual. Each moral dilemma will be multiple choice and have follow-up questions to extend the scope of the dilemma. Users will be able to see how their answers match up with others.
+In addition, connect with other users to discuss moral dilemmas in a dedicated comment section. Users can submit new moral dilemmas (optional photo) to our own API. We as admins will then decide whether to approve and include it in our application.
+Users will have dedicated profiles and can connect with each other and see how much their ethics align. Users can privately message each other and have their own debates. Moreover, users can link their Facebook, Instagram, and LinkedIn accounts to their profiles. Profiles can optionally have a thumbnail photo, header, and bio section.
+Potential Stretch Goals:
+Generate a page of users that have ethical standards most like your own.
+Create the ability for users to add other users to a friends list.
+Add the ability for users to use emojis in comments and private messages.
+Add an ability for users to have their own walls where they can make various posts.
+Add a feed where users can see their friend’s posts.
+
+The web application consists of a frontend written in HTML, CSS,
+Bootstrap/Tailwind, and jQuery. The backend was written in Python/
+
+An interface is provided to create new blog
+posts, view existing blog posts, edit existing blog posts, delete existing
+blog posts, and search by both keywords and usernames.
+
+---
+
+## Tools Used
+VS Code
+PyCharm
+
+- Python
+- Django
+- Docker
+- MVC
+- Bootstrap/Tailwind
+- Pytest
+
+---
+
+<!-- ## Recent Updates
+
+#### V 1.0
+*TBA* - April " "
+
+---
+
+## Getting Started
+
+Clone this repository to your local machine.
+
+```
+$ git clone https://github.com/Team-Pythog/lets-git-ethical.git
+```
+Once downloaded, activate your virtual environment and run by ____________
+```
+cd Team-Pythog/lets-git-ethical
+python build
+```
+The poetry tools will automatically install any dependencies. Before running the application, setup your DB by doing ________
+```
+Update-Database
+```
+Once the database has been created, the application can be run. Options for running and debugging the application using can be found via your coding tools of ___________. From the command line, the following will start an instance of the Postgresql server to host the application:
+```
+cd YourRepo/YourProject
+dotnet run
+```
+Unit testing is included in the __________________ project using the pytest test framework. Tests have been provided for models, view models, controllers, and utility classes for the application.
+
+---
+
+## Usage
+***[Provide some images of your app with brief description as title]***
+
+### Overview of Recent Posts
+![Overview of Recent Posts](https://via.placeholder.com/500x250)
+
+### Creating a Post
+![Post Creation](https://via.placeholder.com/500x250)
+
+### Enriching a Post
+![Enriching Post](https://via.placeholder.com/500x250)
+
+### Viewing Post Details
+![Details of Post](https://via.placeholder.com/500x250)
+
+---
+## Data Flow (Frontend, Backend, REST API)
+***[Add a clean and clear explanation of what the data flow is. Walk me through it.]***
+![Data Flow Diagram](/assets/img/Flowchart.png)
+
+---
+## Data Model
+
+### Overall Project Schema
+***[Add a description of your DB schema. Explain the relationships to me.]***
+![Database Schema](/assets/img/ERD.png)
+
+---
+## Model Properties and Requirements
+
+### Blog
+
+| Parameter | Type | Required |
+| --- | --- | --- |
+| ID  | int | YES |
+| Summary | string | YES |
+| Content | string | YES |
+| Tags | string(s) | NO |
+| Picture | img jpeg/png | NO |
+| Sentiment | float | NO |
+| Keywords | string(s) | NO |
+| Related Posts | links | NO |
+| Date | date/time object | YES |
+
+
+### User
+
+| Parameter | Type | Required |
+| --- | --- | --- |
+| ID  | int | YES |
+| Name/Author | string | YES |
+| Posts | list | YES |
+
+---
+
+## Change Log
+***[The change log will list any changes made to the code base. This includes any changes from TA/Instructor feedback]***
+1.4: *Added OAuth for MySpace* - 23 Jan 2003
+1.3: *Changed email handler to Alta Vista, fixed issue with styling on Netscape Navigator browser.* - 21 Dec 1999
+1.2: *Fixed bug where pages would not load due to temp data* - 16 Jun 1998
+1.1: *Added ability for user to change photos on a post* - 12 May 1998
+
+--- -->
+
+## Authors
 # Sean Hawkins, Amber Falbo, Alex Angelico, Sam Clark 
 
-## Communication plan: How will your group communicate with each other? What is your strategy for ensuring everyone’s voices are heard, and that contributions from both loud and soft voices are listened to? Do you have a plan for managing psychological safety?
--	Slack, Remo, Trello
-- When communicating, everyone mutes except for the speaker. The speaker is loud and clear and willing to repeat if necessary. 
--	Vote over disagreements. In a tie, coin-flip or rock-paper-scissors. If the decision is big, we make a Stack Overflow post or Reddit post and let the beasts decide. 
--	Psychological Safety: Make it a safe space. Initiate a 15-minute cooldown when heated, and then come together as a group to discuss *calmly* the problem at hand. If all else fails, Call in a TA as a last resort. If things get heated with TA, call Roger. 
--	If cannot make a meeting time within short notice: Slack group and let Roger know you have informed your group that you will not be available on that day. If there are prior commitments, just tell the group ahead of time. 
-
-## Conflict plan: What will your group do when it encounters conflict? What will your process be to resolve it?
-- Talk it out, then take a vote. If tie, coin-flip or RPS. 
--	We agree not to have conflicts because we agreed to handle things with empathy and love! 
--	15-minute cooldown if needed before talking it out. Calling a TA or Roger is a last resort. 
-
-## Work plan: How you will identify tasks, assign tasks, know when they are complete, and manage work in general? In particular, make sure you know how you’ll track whether everyone is contributing equally to all parts of the project, and that each person is working on “meaty” problems. What project management tool will be used?
--	Trello organization. This is where we will keep track of who has done what, who is currently working on what, and the overall progress of the project. 
--	Tasks will be identified through preparatory wireframing and relational diagrams used to develop the initial project concept.
--	Use Github to control what is being pushed up to both the development and production branches.
--	To ensure that all team members can work on substantial components, major tasks will be evenly divided during daily standups and ownership will be visually flagged on Trello. 
--	If changes to project function or priorities are made, ensure they are reflected in new Trello features so that team members have a point of reference.
-
-## Git process: What lives on GitHub? What is your Git flow? How many people must review a PR? Who merges PRs? How often will you merge? How will you communicate that it’s time to merge?
--	Updates are pushed either at the end or start of a workday. We will play this by ear and push as needed. All group members must push their changes (if applicable) and conduct code review of any extra work completed to ensure everyone is on the same page.
--	Have separate Dev and Main branches. All members push their **well named** branches into Dev, and then together we choose to push to master.
--	A pull request needs to be verified/approved by any two team members. Everyone in the group should be aware of all changes being merged. 
--	We will have all of our code, distinguishable branches, and documentation located on our Github repo. 
--	The person who created the pull request may NOT be one of the two to approve but must be the one to do the actual merge once approved. 
--	Any time someone things we should merge, we will discuss either in Remo or on Slack. 
-
-## Anything else you feel is important: expectations around work times, stand-up times (outside of the ones scheduled with the instructional team), taking breaks/seeking help when you’re stuck, etc.
--	Schedule: M-Th: 6:30pm-9:30pm, Sat: 9:00am-6:00pm. Talk about potentially coming together on Friday. If we put in work on Friday, when/how long will depend on what work needs to be done. This will be planned EOD Thursday.
--	If work is put in on Friday, we will recap/code review what was done with the rest of the team on the following Saturday.  
--	15-minute rule: Ask teammates to get unblocked. If not unblocked in 15 minutes, ask a TA for help. Get Roger if still super stuck after another 15 minutes. 
