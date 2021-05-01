@@ -45,7 +45,13 @@ PyCharm
 
 ---
 
-<!-- ## Recent Updates
+## Trello Board
+```
+https://trello.com/b/qeJ8FHxG/lets-git-ethical
+```
+
+---
+## Recent Updates
 
 #### V 1.0
 *TBA* - April " "
@@ -59,7 +65,7 @@ Clone this repository to your local machine.
 ```
 $ git clone https://github.com/Team-Pythog/lets-git-ethical.git
 ```
-Once downloaded, activate your virtual environment and run by ____________
+<!-- Once downloaded, activate your virtual environment and run by ____________
 ```
 cd Team-Pythog/lets-git-ethical
 python build
