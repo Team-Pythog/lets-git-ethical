@@ -122,7 +122,7 @@ python build
 
 ### Overall Project Schema/ ERD
 ***[Add a description of your DB schema. Explain the relationships to me.]***
-(![Database Schema](/assets/img/ERD.png))
+![Database Schema](/assets/ethics-ERD.png)
 
 
 ### User
