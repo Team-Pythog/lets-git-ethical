@@ -22,14 +22,30 @@ return (
             </nav>
         </header>
 
-        <main>
-            <div>
+        <main className="w-5/6 m-auto">
+            <div className="border border-black w-full">
                 <div>
-                    <img class="object-cover" src="cat_lady.png"></img>
-                    <h1>Mrs. Ewok</h1>
-                    <button></button>
+                    <img className="w-3/12" src="https://github.com/Team-Pythog/lets-git-ethical/blob/dev/lets-git-ethical/images/ewok.jpg?raw=true"></img>
+                    <h1>Ewok</h1>
+                    <button>Edit</button>
                 </div>
             </div>
+            <section className="border border-black p-3">
+                <div className="border border-black w-9/12 m-auto">
+                    <article>
+                        About Me
+                    </article>
+                    <p>
+
+                    </p>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+            </section>
         </main>
 
 
