@@ -24,7 +24,7 @@ return (
 
         <main className="w-5/6 m-auto my-4">
             <div className="w-full border border-black">
-                <div className="w-1/4 mx-8 my-8 border border-black">
+                <div className="w-1/6 mx-8 my-8 border border-black">
                     <img className="" src="https://github.com/Team-Pythog/lets-git-ethical/blob/dev/lets-git-ethical/images/ewok.jpg?raw=true"></img>
                     <h1 className="text-center border border-black ">Ewok</h1>
                     <button className="w-full border border-black">Edit</button>
