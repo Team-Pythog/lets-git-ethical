@@ -1,6 +1,7 @@
 import Head from 'next/head'
+import Nav from './nav'
 
-export default function Home() {
+export default function Homepage() {
 return (
 <div className="">
     <Head>
@@ -9,18 +10,7 @@ return (
     </Head>
     <body className="w-screen">
             
-        <header className="w-5/6 m-auto">
-            <nav className="w-full border border-black">
-                <ul className="flex flex-row p-3 bg-red-50">
-                    <li className="w-1/6 p-3 text-center border border-black"><a href="">Home</a></li>
-                    <li className="w-1/6 p-3 text-center border border-black"><a href="">Dilemmas</a></li>
-                    <li className="w-1/6 p-3 text-center border border-black"><a href="">New Dilemma</a></li>
-                    <li className="w-1/6 p-3 text-center border border-black"><a href="">Messages</a></li>
-                    <li className="w-1/6 p-3 text-center border border-black"><a href="">Friends</a></li>
-                    <li className="w-1/6 p-3 text-center border border-black"><a href="">About Us</a></li>
-                </ul>
-            </nav>
-        </header>
+        <Nav />
 
         <main className="w-5/6 m-auto my-4">
             <div className="w-full border border-black">
