@@ -23,9 +23,8 @@ class App extends Component {
       })
       .then(res => res.json())
       .then(json => {
-        this.setState({ username: json.username });
-        logged_in: localStorage.getItem('token') ? true : false
-        });
+        this.setState({ username: json.username,logged_in: localStorage.getItem('token') ? true : false });
+      });
     }
   }
 
