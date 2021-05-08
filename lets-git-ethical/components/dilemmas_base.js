@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Dilemmas from '../pages/dilemmas'
 import DilemmaDetail from './dilemma_detail';
-import Nav from './nav'
+import Nav from './Nav'
 import { fetchWithToken, apiURL } from '../services/data-fetcher'
 import Head from 'next/head'
 import useSWR from 'swr'
