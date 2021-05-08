@@ -1,5 +1,7 @@
 import Head from 'next/head'
-import Nav from './nav'
+import Nav from './Nav'
+
+
 
 export default function Homepage() {
 return (
@@ -23,10 +25,10 @@ return (
             <section className="p-3 my-4 border border-black">
                 <div className="w-11/12 m-auto my-3 border border-black">
                     <article className="border border-black">
-                    What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?
+                    What is Lorem Ipsum Lorem Ipsum is simply dummy text of the 
                     </article>
                     <p className="border border-black">
-                    What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?
+                    What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the 
                     </p>
                     <ul className="flex flex-row border border-black">
                         <li>Facebook</li>
