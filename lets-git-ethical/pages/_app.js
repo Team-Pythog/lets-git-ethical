@@ -3,17 +3,17 @@ import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import LoginForm from '../components/LoginForm';
 import SignupForm from '../components/SignupForm';
+import './App.css';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       displayed_form: '',
-      logged_in: localStorage.getItem('token') ? true : false,
       username: ''
     };
   }
-
+  
   componentDidMount() {
     if (this.state.logged_in) {
       fetch('http://localhost:8000/core/current_user/', {
@@ -21,9 +21,10 @@ class App extends Component {
           Authorization: `JWT ${localStorage.getItem('token')}`
         }
       })
-        .then(res => res.json())
-        .then(json => {
-          this.setState({ username: json.username });
+      .then(res => res.json())
+      .then(json => {
+        this.setState({ username: json.username });
+        logged_in: localStorage.getItem('token') ? true : false
         });
     }
   }
