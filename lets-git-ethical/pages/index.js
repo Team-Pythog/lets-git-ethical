@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { getToken } from '../services/data-fetcher'
+import Homepage from '../components/homepage'
 
 export default function Home() {
 
@@ -20,9 +21,9 @@ export default function Home() {
         setToken(null);
     }
 
-    if (!token) return <h2></h2>
+    // if (!token) return <h2>Login</h2>
 
-    return <h2></h2>
+    return <Homepage />
 }
 
 
