@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { getToken } from '../services/data-fetcher'
 import Homepage from '../components/homepage'
 
+
 export default function Home() {
 
     const [token, setToken] = useState();
