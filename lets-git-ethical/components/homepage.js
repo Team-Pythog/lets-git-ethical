@@ -12,7 +12,11 @@ return (
     </Head>
     <body className="w-screen">
             
-        <Nav />
+    <Nav
+    logged_in={this.state.logged_in}
+    display_form={this.display_form}
+    handle_logout={this.handle_logout}
+    />
 
         <main className="w-5/6 m-auto my-4">
             <div className="w-full border border-black">

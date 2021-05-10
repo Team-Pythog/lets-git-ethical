@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-export const apiUrl = 'https://lets-git-ethical-backend.herokuapp.com/'
+export const apiUrl = 'https://lets-git-ethical-be.herokuapp.com/'
 
 export class Dilemma {
 
