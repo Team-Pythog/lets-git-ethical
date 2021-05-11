@@ -45,13 +45,13 @@ export default function DilemmaBase() {
         return (
             <div>
                 <Head>
-                <title>Let's-Git-Ethical</title>
+                <title>Let's-Git-Ethicall</title>
                 <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <body className="w-screen">
                     <Nav />
                     <main className="w-5/6 m-auto border border-black">
-                        
+                        <h1>Hello There!!!!</h1>
                         {/* <ul>
                             {dilemmas.map((dilemma, i)=>{
                                 return(
